@@ -1,0 +1,10 @@
+Concept
+
+This file contains fundamental concepts related to DSA topics.
+Topics will include theoretical understanding of data structures and algorithms.
+
+Contents to be added:
+- Definition and purpose of the topic
+- Real-world applications
+- Why this concept is important in programming
+- Key principles and fundamentals
