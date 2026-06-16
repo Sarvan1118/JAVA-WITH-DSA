@@ -1,0 +1,10 @@
+Interview Questions and Answers
+
+This file contains commonly asked interview questions and their answers related to DSA topics.
+
+Contents to be added:
+- Frequently asked questions in technical interviews
+- Detailed answers with explanations
+- Time and space complexity analysis
+- Edge cases and common mistakes
+- Tips for answering interview questions
