@@ -1,4 +1,4 @@
-# FACTORIAL OF A GIVEN NUMBER
+## FACTORIAL OF A GIVEN NUMBER
  import java.util.*;
  class main{
      public static void main(String[] args){
@@ -12,7 +12,7 @@
          System.out.println("Factorial of "+a+" is :"+fact);
      }
  }
-# check if two integers have different signs prints true
+## check if two integers have different signs prints true
 import java.util.*;
 class Main {
     public static void main(String[] args) {
@@ -28,3 +28,26 @@ output:
           Enter the two numbers :
                                     10 -8
                                     true
+## spy number (sum == product)
+ import java.util.*;
+ class main{
+     public static void main(String[] args){
+         Scanner sc = new Scanner(System.in);
+         System.out.println("enter a number:");
+         int a = sc.nextInt();
+         int i,rem,sum=0,pro=1;
+         while(a>0){
+             rem=a%10;
+             sum+=rem;
+             pro*=rem;
+             a=a/10;
+         }
+         if(sum==pro)
+         {
+             System.out.println("It is a spy number");
+         }
+         else{
+         System.out.println("It is not a spy number");
+         }
+     }
+ }
